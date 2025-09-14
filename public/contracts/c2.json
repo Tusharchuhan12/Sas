@@ -1,0 +1,34 @@
+{
+    "id": "c2",
+    "name": "Network Services Agreement",
+    "parties": "TelNet & ABC Corp",
+    "start": "2022-05-01",
+    "expiry": "2025-10-10",
+    "status": "Renewal Due",
+    "risk": "High",
+    "clauses": [
+        {
+            "title": "Service Levels",
+            "summary": "99.9% uptime guarantee.",
+            "confidence": 0.75
+        },
+        {
+            "title": "Penalty",
+            "summary": "Fees waived for downtime.",
+            "confidence": 0.80
+        }
+    ],
+    "insights": [
+        {
+            "risk": "High",
+            "message": "Downtime penalties may not cover data loss."
+        }
+    ],
+    "evidence": [
+        {
+            "source": "Section 8.3",
+            "snippet": "Service availability less than 99.9% triggers penalty.",
+            "relevance": 0.85
+        }
+    ]
+}
